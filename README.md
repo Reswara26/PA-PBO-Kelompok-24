@@ -53,9 +53,11 @@ Atribut Subtype (Kontraktor):
 
 Relasi:
 
-Kelola: Admin dan Kontraktor mengelola proyek.
+Kelola
 
-Kardinalitas: Setiap pengguna harus mengelola satu dan hanya satu proyek, dan setiap proyek harus dikelola oleh satu atau banyak pengguna.
+Setiap Pengguna harus mengelola satu dan hanya satu proyek   
+
+Setiap Proyek harus dikelola satu atau banyak pengguna
 
 
 #### Proyek
@@ -70,9 +72,11 @@ Atribut:
 
 Relasi:
 
-Punya: Proyek mempunyai banyak progres.
+Punya: Progres dipunyai satu dan hanya satu proyek.
 
-Milik: Proyek memiliki banyak pengeluaran dan laporan.
+Milik
+- Laporan dimiliki satu dan hanya satu proyek.
+- Pengeluaran dimiliki satu dan hanya satu proyek.
 
 
 #### Progres
@@ -85,7 +89,7 @@ Atribut:
 
 Relasi:
 
-Punya: Proyek memiliki satu atau banyak progres.
+Punya: Proyek mempunyai satu atau banyak progres.
 
 
 #### Pengeluaran
@@ -114,3 +118,6 @@ Atribut:
 Relasi:
 
 Milik: Proyek memiliki satu atau banyak laporan.
+
+
+## Project Structure
