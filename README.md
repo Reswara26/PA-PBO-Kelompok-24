@@ -41,16 +41,13 @@ Atribut Supertype (Pengguna):
 - `password`: Kata sandi untuk autentikasi.
 - `kontak`: Nomor telepon atau email.
 - `id_proyek`: Proyek yang dikelola (FK).
-
 Atribut Subtype (Admin):
 - `id_pengguna`: Referensi ke pengguna.
 - `jabatan_admin`: Posisi atau peran admin.
-
 Atribut Subtype (Kontraktor):
 - `id_pengguna`: Referensi ke pengguna.
 - `nama_perusahaan`: Nama perusahaan kontraktor.
 - `penanggung_jawab`: Nama penanggung jawab proyek.
-
 Relasi:
 - Kelola: Admin dan Kontraktor mengelola proyek.
 - Kardinalitas: Setiap pengguna mengelola satu proyek, dan satu proyek bisa dikelola oleh banyak pengguna.
