@@ -9,6 +9,7 @@ Sistem Manajemen Proyek Infrastruktur (SIMANPROF) merupakan aplikasi berbasis Ja
 - Filter dan pencarian data proyek
 - Laporan otomatis berbasis data aktual
 
+
 ## Flowchart
 
 ### Menu Login
@@ -19,3 +20,13 @@ Sistem Manajemen Proyek Infrastruktur (SIMANPROF) merupakan aplikasi berbasis Ja
 
 ### Menu Kontraktor
 <img width="814" height="875" alt="image" src="https://github.com/user-attachments/assets/131563be-047a-46dd-b3f0-17df5c61fed7" />
+
+
+## ERD
+
+### ERD Logical
+<img width="7613" height="6062" alt="Logical" src="https://github.com/user-attachments/assets/f114cff6-6e03-47d8-b3c2-9015b6bd0f3f" />
+
+### ERD Relational
+<img width="7613" height="6062" alt="Relational_1" src="https://github.com/user-attachments/assets/f456a841-b1da-47d2-8f16-c7eaf345c828" />
+
