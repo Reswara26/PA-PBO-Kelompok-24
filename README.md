@@ -54,10 +54,8 @@ Atribut Subtype (Kontraktor):
 Relasi:
 
 Kelola
-
-Setiap Pengguna harus mengelola satu dan hanya satu proyek   
-
-Setiap Proyek harus dikelola satu atau banyak pengguna
+- Setiap Pengguna harus mengelola satu dan hanya satu proyek   
+- Setiap Proyek harus dikelola satu atau banyak pengguna
 
 
 #### Proyek
@@ -72,7 +70,7 @@ Atribut:
 
 Relasi:
 
-Punya: Progres dipunyai satu dan hanya satu proyek.
+- Punya: Progres dipunyai satu dan hanya satu proyek.
 
 Milik
 - Laporan dimiliki satu dan hanya satu proyek.
@@ -89,7 +87,7 @@ Atribut:
 
 Relasi:
 
-Punya: Proyek mempunyai satu atau banyak progres.
+- Punya: Proyek mempunyai satu atau banyak progres.
 
 
 #### Pengeluaran
@@ -103,7 +101,7 @@ Atribut:
 
 Relasi:
 
-Milik: Proyek memiliki satu atau banyak pengeluaran.
+- Milik: Proyek memiliki satu atau banyak pengeluaran.
 
 
 #### Laporan
@@ -117,7 +115,7 @@ Atribut:
 
 Relasi:
 
-Milik: Proyek memiliki satu atau banyak laporan.
+- Milik: Proyek memiliki satu atau banyak laporan.
 
 
 ## Project Structure
