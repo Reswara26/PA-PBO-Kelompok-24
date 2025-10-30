@@ -41,16 +41,20 @@ Atribut Supertype (Pengguna):
 - `password`: Kata sandi untuk autentikasi.
 - `kontak`: Nomor telepon atau email.
 - `id_proyek`: Proyek yang dikelola (FK).
+
 Atribut Subtype (Admin):
 - `id_pengguna`: Referensi ke pengguna.
 - `jabatan_admin`: Posisi atau peran admin.
+
 Atribut Subtype (Kontraktor):
 - `id_pengguna`: Referensi ke pengguna.
 - `nama_perusahaan`: Nama perusahaan kontraktor.
 - `penanggung_jawab`: Nama penanggung jawab proyek.
+
 Relasi:
 - Kelola: Admin dan Kontraktor mengelola proyek.
 - Kardinalitas: Setiap pengguna mengelola satu proyek, dan satu proyek bisa dikelola oleh banyak pengguna.
+
 
 
 #### Proyek
@@ -67,3 +71,26 @@ Relasi:
 - Punya: Proyek mempunyai banyak progres.
 - Milik: Proyek memiliki banyak pengeluaran dan laporan.
 
+
+
+#### Progres
+Atribut:
+- `id_progres`: Identifikasi unik progres.
+- `tanggal_update`: Tanggal pembaruan progres.
+- `persentase_selesai`: Persentase penyelesaian.
+- `deskripsi`: Penjelasan progres.
+- `id_proyek`: Proyek terkait (FK).
+
+Relasi:
+- Punya: Proyek memiliki satu atau banyak progres.
+
+
+
+### Pengeluaran
+Atribut:
+- `id_pengeluaran`: Identifikasi unik pengeluaran.
+- `tanggal_pengeluaran`: Tanggal transaksi.
+- `keterangan`: Penjelasan pengeluaran.
+- `jumlah`: Nominal pengeluaran.
+- `kategori`: Jenis pengeluaran.
+- `id_proyek`: Proyek terkait (FK).
