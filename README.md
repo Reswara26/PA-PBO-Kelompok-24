@@ -9,4 +9,7 @@ Sistem Manajemen Proyek Infrastruktur (SIMANPROF) merupakan aplikasi berbasis Ja
 - Filter dan pencarian data proyek
 - Laporan otomatis berbasis data aktual
 
-### Flowchart
+## Flowchart
+
+### Menu Login
+<img width="992" height="894" alt="image" src="https://github.com/user-attachments/assets/3d59fd90-d42d-4e76-b282-a1f6fc7173d5" />
