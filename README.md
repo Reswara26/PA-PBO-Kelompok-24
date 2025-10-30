@@ -30,3 +30,43 @@ Sistem Manajemen Proyek Infrastruktur (SIMANPROF) merupakan aplikasi berbasis Ja
 #### ERD Relational
 <img width="7613" height="6062" alt="Relational_1" src="https://github.com/user-attachments/assets/f456a841-b1da-47d2-8f16-c7eaf345c828" />
 
+
+## Entitas
+
+#### Pengguna (Admin / Kontraktor)
+Atribut Supertype (Pengguna):
+- `id_pengguna`: Identifikasi unik pengguna.
+- `nama_pengguna`: Nama pengguna.
+- `username`: Nama akun untuk login.
+- `password`: Kata sandi untuk autentikasi.
+- `kontak`: Nomor telepon atau email.
+- `id_proyek`: Proyek yang dikelola (FK).
+
+Atribut Subtype (Admin):
+- `id_pengguna`: Referensi ke pengguna.
+- `jabatan_admin`: Posisi atau peran admin.
+
+Atribut Subtype (Kontraktor):
+- `id_pengguna`: Referensi ke pengguna.
+- `nama_perusahaan`: Nama perusahaan kontraktor.
+- `penanggung_jawab`: Nama penanggung jawab proyek.
+
+Relasi:
+- Kelola: Admin dan Kontraktor mengelola proyek.
+- Kardinalitas: Setiap pengguna mengelola satu proyek, dan satu proyek bisa dikelola oleh banyak pengguna.
+
+
+#### Proyek
+Atribut:
+- `id_proyek`: Identifikasi unik proyek.
+- `nama_proyek`: Nama proyek.
+- `lokasi`: Lokasi pelaksanaan.
+- `tanggal_mulai`: Tanggal dimulainya proyek.
+- `tanggal_selesai`: Tanggal target selesai.
+- `anggaran`: Total anggaran proyek.
+- `status`: Status terkini proyek.
+
+Relasi:
+- Punya: Proyek mempunyai banyak progres.
+- Milik: Proyek memiliki banyak pengeluaran dan laporan.
+
