@@ -13,3 +13,8 @@ Sistem Manajemen Proyek Infrastruktur (SIMANPROF) merupakan aplikasi berbasis Ja
 
 ### Menu Login
 <img width="992" height="894" alt="image" src="https://github.com/user-attachments/assets/3d59fd90-d42d-4e76-b282-a1f6fc7173d5" />
+
+### Menu Admin
+<img width="1253" height="767" alt="image" src="https://github.com/user-attachments/assets/065c41b2-6fac-4681-9f1a-e77277a1cbed" />
+
+### Menu Kontraktor
