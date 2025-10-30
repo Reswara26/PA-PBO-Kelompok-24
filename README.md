@@ -52,7 +52,9 @@ Atribut Subtype (Kontraktor):
 - `penanggung_jawab`: Nama penanggung jawab proyek.
 
 Relasi:
+
 Kelola: Admin dan Kontraktor mengelola proyek.
+
 Kardinalitas: Setiap pengguna harus mengelola satu dan hanya satu proyek, dan setiap proyek harus dikelola oleh satu atau banyak pengguna.
 
 
@@ -67,7 +69,9 @@ Atribut:
 - `status`: Status terkini proyek.
 
 Relasi:
+
 Punya: Proyek mempunyai banyak progres.
+
 Milik: Proyek memiliki banyak pengeluaran dan laporan.
 
 
@@ -80,6 +84,7 @@ Atribut:
 - `id_proyek`: Proyek terkait (FK).
 
 Relasi:
+
 Punya: Proyek memiliki satu atau banyak progres.
 
 
@@ -93,6 +98,7 @@ Atribut:
 - `id_proyek`: Proyek terkait (FK).
 
 Relasi:
+
 Milik: Proyek memiliki satu atau banyak pengeluaran.
 
 
@@ -106,4 +112,5 @@ Atribut:
 - `id_proyek`: Proyek terkait (FK).
 
 Relasi:
+
 Milik: Proyek memiliki satu atau banyak laporan.
