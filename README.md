@@ -3,34 +3,15 @@
 Sistem Manajemen Proyek Infrastruktur (SIMANPROF) merupakan aplikasi berbasis Java yang dikembangkan dengan berbasis Pemrograman Berorientasi Objek (PBO). Aplikasi ini dirancang untuk membantu pengelola proyek infrastruktur dalam memantau, mencatat, dan mengelola seluruh aspek proyek secara digital dan terintegrasi. Dengan antarmuka yang interaktif dan sistem berbasis database, SIMANPROF bertujuan meningkatkan efisiensi, transparansi, dan akuntabilitas dalam pelaksanaan proyek publik.
 
 ### Fitur Utama:
-- Fitur Login
-  
-  Aplikasi ini memiliki fitur login sebagai pintu utama untuk mengakses sistem.
+- 🔐Fitur Login — Proses masuk ke sistem dilakukan melalui verifikasi username dan password, sehingga hanya akun yang sah yang bisa menggunakan aplikasi.
 
-  Setiap pengguna harus memasukkan username dan password yang tersimpan di database. Fitur ini memastikan hanya pengguna yang terdaftar yang bisa masuk ke sistem, sekaligus membedakan apakah
-  pengguna tersebut adalah admin atau kontraktor.
-  Jika data login sesuai, sistem akan mengarahkan pengguna ke tampilan sesuai perannya masing-masing.
+- 🗂️Pengelolaan Data Proyek — Pengguna dapat melihat, menambah, dan memperbarui data proyek yang tersimpan di database.
 
-- Fitur CRUD
-  
-  - Kelola Proyek
-    
-    Pengguna dapat menambahkan data proyek baru, melihat proyek, mengedit proyek yang sudah ada, atau menghapus proyek yang sudah selesai.
-    
-  - Kelola Pengeluaran
-    
-    Fitur ini digunakan untuk mencatat dan mengatur data pengeluaran setiap proyek.
-    Dengan adanya fitur ini, admin ataupun kontraktor dapat memantau anggaran dan biaya operasional dengan lebih mudah.
-    
-  - Kelola Progress
-    
-    Fitur ini digunakan untuk mencatat perkembangan atau tahap-tahap pekerjaan dari suatu proyek.
-    Dengan fitur ini, pengguna dapat mengetahui sejauh mana proyek telah berjalan dan apakah ada hambatan yang perlu segera diatasi.
-    
-  - Kelola Laporan
-    
-    Fitur ini memungkinkan pengguna untuk membuat, melihat, dan memperbarui laporan terkait hasil atau perkembangan proyek.
-    Laporan ini biasanya mencakup informasi tentang progres, hasil akhir, atau evaluasi dari proyek yang sedang berjalan.
+- 📈Pemantauan Progres Real-Time — Setiap pembaruan progres yang dilakukan kontraktor langsung tersimpan di database dan dapat dipantau oleh admin maupun kontraktor secara real-time.
+
+- 💰Pencatatan Pengeluaran Terintegrasi — Seluruh data pengeluaran proyek dicatat dan terhubung langsung dengan data proyek terkait untuk menjaga transparansi dan efisiensi anggaran.
+
+- 📊Laporan Proyek — Fitur ini memungkinkan pengguna untuk membuat, melihat, memperbarui, dan menghapus laporan terkait hasil atau perkembangan proyek.
 
 ## 📌Flowchart
 
