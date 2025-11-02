@@ -7,7 +7,7 @@ Sistem Manajemen Proyek Infrastruktur (SIMANPROF) merupakan aplikasi berbasis Ja
 
 - 🗂️Pengelolaan Data Proyek — Pengguna dapat melihat, menambah, dan memperbarui data proyek yang tersimpan di database.
 
-- 📈Pemantauan Progres Real-Time — Setiap pembaruan progres yang dilakukan kontraktor langsung tersimpan di database dan dapat dipantau oleh admin maupun kontraktor secara real-time.
+- 📈Pemantauan Progres Real-Time — Setiap pembaruan progres yang dilakukan pengguna langsung tersimpan di database dan dapat dipantau oleh admin maupun kontraktor secara real-time.
 
 - 💰Pencatatan Pengeluaran Terintegrasi — Seluruh data pengeluaran proyek dicatat dan terhubung langsung dengan data proyek terkait untuk menjaga transparansi dan efisiensi anggaran.
 
