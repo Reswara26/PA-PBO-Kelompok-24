@@ -131,26 +131,11 @@ Relasi:
 #### - Encapsulation
 Encapsulation diterapkan pada bagian pengelolaan class pengguna, proyek, pengeluaran, progress, dan laporan.
 Setiap atribut data disimpan dalam variabel dengan akses private, kemudian diakses melalui getter dan setter.
-<img width="1392" height="725" alt="Screenshot 2025-11-01 173024" src="https://github.com/user-attachments/assets/2a318f88-067d-40b2-8b46-d228f63d082d" />
-
-<img width="1384" height="728" alt="Screenshot 2025-11-01 173234" src="https://github.com/user-attachments/assets/de492f55-d7fc-4d0c-9b87-51e7c2f68a34" />
-
-<img width="1352" height="621" alt="Screenshot 2025-11-01 173253" src="https://github.com/user-attachments/assets/6e541f66-a305-4310-9e24-819df9b4c576" />
-
-<img width="1210" height="823" alt="Screenshot 2025-11-01 173310" src="https://github.com/user-attachments/assets/ea7eff08-6a84-4d9d-9176-03b4683b1e57" />
-
-<img width="1203" height="719" alt="Screenshot 2025-11-01 173328" src="https://github.com/user-attachments/assets/cbc84663-cee5-4f53-8170-f21eeca273bf" />
-
 
 #### - Inheritance
 Penerapan konsep inheritance pada program ini terdapat pada bagian class model, khususnya antara class Pengguna, Admin, dan Kontraktor.
 Class Pengguna berperan sebagai superclass yang menyimpan atribut dasar pengguna seperti username, password, dan dll.
 Sedangkan Admin dan Kontraktor merupakan subclass yang mewarisi seluruh atribut serta method dari User, dan masing-masing menambahkan fungsi khusus sesuai perannya.
-
-<img width="485" height="70" alt="image" src="https://github.com/user-attachments/assets/b3f2c028-db3f-456f-9fa8-a74d3bf99267" />
-
-<img width="551" height="93" alt="image" src="https://github.com/user-attachments/assets/5ad35cda-9111-48cd-8565-4165c6a4dd10" />
-
 
 #### - Abstraction
 
@@ -160,8 +145,6 @@ Sedangkan Admin dan Kontraktor merupakan subclass yang mewarisi seluruh atribut 
 
 #### - Interface
 Inheritance diterapkan pada bagian class model. Penerapan interface ini digunakan untuk menyatukan pola operasi CRUD (Create, Read, Update, Delete) di berbagai modul, seperti proyek, laporan, dan pengeluaran.
-
-<img width="405" height="203" alt="image" src="https://github.com/user-attachments/assets/16b65edf-af90-4024-89d7-eb230bc64b5c" />
 
 
 ## 📌Project Structure
