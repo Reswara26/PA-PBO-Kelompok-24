@@ -176,12 +176,14 @@ Package db_connector berisi class yang berfungsi untuk mengatur koneksi antara a
 Package ini hanya berisi satu class utama yaitu db_connection, yang memiliki tanggung jawab penuh dalam membuka dan mengelola koneksi ke database.
 
 5. Package Util
-   Package util berisi class bantu yang digunakan untuk memvalidasi input pengguna sebelum data disimpan ke sistem.
-   Di dalamnya terdapat class InputValidator, yang menyediakan beberapa method statis seperti requireNonEmpty(), requireDouble(), dan requireDate().
+   
+Package util berisi class bantu yang digunakan untuk memvalidasi input pengguna sebelum data disimpan ke sistem.
+Di dalamnya terdapat class InputValidator, yang menyediakan beberapa method statis seperti requireNonEmpty(), requireDouble(), dan requireDate().
 
 6. Package Main
-   Berisi class utama yang menjalankan program SIMANPROF.
-   Package ini menampilkan menu utama, menangani login, dan menghubungkan semua fitur dari controller lain seperti proyek, progres, laporan, dan pengeluaran.
+   
+Berisi class utama yang menjalankan program SIMANPROF.
+Package ini menampilkan menu utama, menangani login, dan menghubungkan semua fitur dari controller lain seperti proyek, progres, laporan, dan pengeluaran.
 
 ## 📌Library yang digunakan
 
@@ -193,7 +195,7 @@ Package ini hanya berisi satu class utama yaitu db_connection, yang memiliki tan
   Dengan bantuan library ini, class db_connection dapat membuka koneksi ke database simanprof dan mengeksekusi perintah SQL melalui Java dengan lancar.
 
 - AbsoluteLayout-RELEASE270.jar
-  Library ini digunakan untuk mengatur posisi komponen di tampilan aplikasi (GUI) secara bebas menggunakan koordinat (x, y).
+  Library ini digunakan untuk mengatur tata letak komponen pada tampilan aplikasi (GUI) secara bebas menggunakan koordinat (x, y).
 
 - protobuf-java-3.21.9.jar
   Library ini merupakan dependensi tambahan yang mendukung performa MySQL Connector dalam melakukan komunikasi data.
