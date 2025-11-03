@@ -219,76 +219,116 @@ Pada tampilan awal, pengguna (admin atau kontraktor) melakukan login melalui for
 
 ### 🧑‍💼Menu Admin
 
+Setelah login berhasil, admin akan diarahkan ke menu utama dengan pilihan kelola proyek, kelola pengeluaran, kelola progres, dan kelola laporan.
+
 <img width="1193" height="726" alt="image" src="https://github.com/user-attachments/assets/83412a5a-9e1c-4fd0-8184-c29ebe72c876" />
 
-Setelah login berhasil, admin akan diarahkan ke menu utama dengan pilihan kelola proyek, kelola pengeluaran, kelola progres, dan kelola laporan.
+Jika admin ingin keluar dari menu admin, cukup klik tombol `Kembali ke log in` maka sistem akan menutup jendela menu yang sedang aktif dan menampilkan kembali form login awal.
 
 1️⃣Kelola Proyek
 
-Pada menu Kelola Proyek, admin dapat memilih untuk melihat seluruh data proyek yang tersimpan di database ataupun melakukan pembaruan (update) terhadap informasi proyek seperti lokasi, tanggal, dan anggaran.
+Menu Kelola Proyek menampilkan dua opsi utama, yaitu melihat dan mengupdate proyek.
 
 <img width="1163" height="732" alt="image" src="https://github.com/user-attachments/assets/f11e09f6-8d10-4b96-aa2e-e092ef2d76ae" />
 
+Admin dapat melihat daftar seluruh proyek yang sedang atau telah dikerjakan.
+Informasi yang ditampilkan meliputi ID Proyek, Nama Proyek, Lokasi, Tanggal Mulai, dan Tanggal Selesai.
+
 <img width="1145" height="722" alt="image" src="https://github.com/user-attachments/assets/4b7bde70-4258-4a5b-834e-90c74ad5687c" />
+
+Admin dapat memperbarui data proyek yang sudah terdaftar dengan memasukkan lokasi baru, tanggal mulai, tanggal selesai, serta anggaran proyek. 
+Setelah data diperbarui, sistem otomatis menyimpan perubahan tersebut ke database.
 
 <img width="1165" height="746" alt="image" src="https://github.com/user-attachments/assets/1892ced5-ad7a-4d82-9883-3c68fcfcf457" />
 
-2️⃣Kelola Pengeluaran & Progres
+2️⃣Kelola Pengeluaran 
 
-Pada menu Kelola Pengeluaran dan progres, admin dapat melihat daftar pengeluaran dan progres yang tersedia.
+Pada menu Kelola Pengeluaran, Admin dapat melihat seluruh data pengeluaran proyek yang meliputi ID Pengeluaran, Tanggal, Keterangan, Jumlah, dan Kategori.
+Menu ini digunakan untuk memantau dan memastikan semua transaksi tercatat dengan benar.
 
 <img width="1169" height="677" alt="image" src="https://github.com/user-attachments/assets/ebf287c6-479b-48ce-9062-2a1429f47ee0" />
 
+3️⃣Kelola Progres
+
+Admin dapat memantau perkembangan proyek berdasarkan ID Proyek, Nama Proyek, Tanggal Update, Persentase Progres, dan Deskripsi.
+Fitur ini berguna untuk melihat sejauh mana proyek sudah berjalan dan apakah sesuai dengan jadwal yang ditentukan.
+
 <img width="1163" height="733" alt="image" src="https://github.com/user-attachments/assets/62db204f-05dc-4a69-9d20-8d74419c28e2" />
 
-3️⃣Kelola Laporan
+4️⃣Kelola Laporan
 
-Menu Kelola Laporan menampilkan tiga opsi utama. Admin bisa memilih tindakan yang ingin dilakukan terhadap data laporan proyek seperti melihat seluruh data laporan proyek, memperbarui data laporan dengan memasukkan ID Laporan dan Status Tindak Lanjut, dan menghapus laporan dengan memasukkan ID Laporan yang ingin dihapus. Setelah diisi, tekan tombol Kirim untuk menyimpan perubahan ke database.
+Menu Kelola Laporan menampilkan tiga opsi utama, yaitu melihat, mengupdate, dan menghapus laporan.
 
 <img width="1169" height="747" alt="image" src="https://github.com/user-attachments/assets/3d737803-ef56-4d5a-a7f2-23c381cbdba0" />
 
+Admin dapat menampilkan seluruh laporan proyek yang berisi ID Laporan, Tanggal, Jenis Kendala, Deskripsi, dan Status Tindak Lanjut.
+
 <img width="1165" height="749" alt="image" src="https://github.com/user-attachments/assets/6ece8ce7-2089-4572-b81a-0cd2cfbcadd7" />
+
+Admin dapat memperbarui data laporan yang sudah terdaftar dengan memasukkan ID Laporan dan Status Tindak Lanjut.
 
 <img width="1165" height="745" alt="image" src="https://github.com/user-attachments/assets/309ef02e-059a-455d-b3e1-3c2c1774bb13" />
 
+Admin juga dapat menghapus laporan tertentu berdasarkan ID Laporan.
+
 <img width="1165" height="747" alt="image" src="https://github.com/user-attachments/assets/07e50616-36fe-45c9-a114-3dc0d16b7a50" />
+
+Setelah diisi, tekan tombol `Kirim` untuk menyimpan perubahan ke database.
 
 ### 👷‍♂️Menu Kontraktor
 
+Setelah login berhasil, kontraktor akan diarahkan ke tampilan menu utama kontraktor dengan fitur Kelola Proyek, Kelola Progres, Kelola Pengeluaran, dan Kelola Laporan.
+
 <img width="1190" height="743" alt="image" src="https://github.com/user-attachments/assets/955d6a62-8930-433a-96c3-1685c4287570" />
 
-Setelah login berhasil, kontraktor akan diarahkan ke tampilan menu utama kontraktor dengan fitur Kelola Proyek, Kelola Progres, Kelola Pengeluaran, dan Kelola Laporan.
+ika kontraktor ingin keluar dari menu kontraktor, cukup klik tombol `Kembali ke log in` maka sistem akan menutup jendela menu yang sedang aktif dan menampilkan kembali form login awal.
 
 1️⃣Kelola Proyek
 
-Pada menu kelola proyek, kontraktor dapat menambahkan proyek baru atau melihat daftar proyek yang ada.
+Pada menu kelola proyek terdapat dua opsi utama, yaitu lihat dan tambah proyek baru.
 
 <img width="1166" height="747" alt="image" src="https://github.com/user-attachments/assets/4c7cd301-c89c-44d6-924e-12ec7c05629e" />
 
+Kontraktor dapat melihat daftar proyek yang sedang dikerjakan, termasuk informasi seperti ID proyek, nama, lokasi, tanggal mulai, tanggal selesai, anggaran, dan status proyek.
+
 <img width="1167" height="750" alt="image" src="https://github.com/user-attachments/assets/83c2e9d8-95b9-4e12-b50e-adca1350c1c9" />
+
+Kontraktor dapat menambahkan proyek baru dengan mengisi data seperti nama proyek, lokasi, tanggal mulai, tanggal selesai, anggaran, dan status.
 
 <img width="1164" height="694" alt="image" src="https://github.com/user-attachments/assets/50081b15-5b6f-418f-9665-4b4f02b94752" />
 
+Setelah semua data diisi, tekan tombol `Kirim` untuk menambahkan proyek ke database.
 
 2️⃣Kelola Pengeluaran
 
-Pada menu kelola pengeluaran, kontraktor dapat melihat, menambah, ataupun memperbarui pengeluaran.
+Pada menu kelola pengeluaran, terdapat tiga opsi utama, yaitu lihat, tambah, dan update pengeluaran.
 
 <img width="1163" height="746" alt="image" src="https://github.com/user-attachments/assets/fe8dfbdd-4764-4383-89db-c843ddb40d43" />
 
+Kontraktor dapat menampilkan daftar seluruh pengeluaran proyek yang berisi ID, tanggal, keterangan, jumlah, dan kategori pengeluaran.
+
 <img width="1167" height="748" alt="image" src="https://github.com/user-attachments/assets/3e6e9485-48e5-43ce-8674-2958c2b08ee9" />
+
+Kontraktor dapat menambahkan data pengeluaran baru dengan mengisi tanggal, jumlah, keterangan, dan kategori pengeluaran.
 
 <img width="1162" height="748" alt="image" src="https://github.com/user-attachments/assets/4ca01730-2f0e-4f47-924d-45cdbe495d46" />
 
+Fitur `update pengeluaran` digunakan untuk memperbarui data pengeluaran yang sudah ada, misalnya mengubah tanggal, jumlah, keterangan, atau kategori pengeluaran yang baru.
+
 <img width="1161" height="748" alt="image" src="https://github.com/user-attachments/assets/24f6fbc1-1758-4f85-b79f-d7eff28c53a2" />
 
+Sama seperti sebelumnya, setelah diisi, tekan tombol `Kirim` untuk menyimpan perubahan ke database.
 
 3️⃣Kelola Laporan
 
-Pada menu kelola laporan, kontraktor dapat melihat ataupun menambahkan laporan.
+Pada menu kelola laporan, terdapat dua opsi yaitu lihat dan tambah laporan.
 
 <img width="1164" height="748" alt="image" src="https://github.com/user-attachments/assets/2cb4ed84-2f61-41ee-90c1-953a2efd7d44" />
 
+Kontraktor dapat menampilkan daftar laporan yang berisi ID laporan, tanggal, jenis kendala, deskripsi, dan status tindak lanjut.
+
 <img width="1169" height="749" alt="image" src="https://github.com/user-attachments/assets/ba37f652-cb77-4e13-a4ad-5c1a11506e5f" />
+
+Kontraktor juga dapat menambahkan laporan baru dengan mengisi tanggal laporan, jenis kendala yang ditemukan di lapangan, deskripsi masalah, serta status tindak lanjutnya.
 
 <img width="1168" height="691" alt="image" src="https://github.com/user-attachments/assets/01de52fe-87c5-4f97-9ecd-48014e85f11a" />
