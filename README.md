@@ -207,7 +207,7 @@ Package ini menampilkan menu utama, menangani login, dan menghubungkan semua fit
 
 ## 📌Cara menggunakan program
 
-### :👤Tampilan Login
+### 👤Tampilan Login
 
 <img width="1204" height="772" alt="Screenshot 2025-11-03 141102" src="https://github.com/user-attachments/assets/88a8630d-5510-4398-a20a-648803afa662" />
 
