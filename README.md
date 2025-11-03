@@ -15,29 +15,38 @@ Sistem Manajemen Proyek Infrastruktur (SIMANPROF) merupakan aplikasi berbasis Ja
 
 ## 📌Flowchart
 
-#### Menu Login
+<details>
+ <summary>Flowchart Menu Login</summary>
 <img width="1400" height="409" alt="flowchart   Use Case-Menu Login drawio" src="https://github.com/user-attachments/assets/4c15a892-09f4-4a57-a3b6-6007ffe1eeb8" />
+</details>
 
-#### Menu Admin
+<details>
+ <summary>Flowchart Menu Admin</summary>
 <img width="2112" height="1403" alt="flowchart   Use Case-Menu Admin drawio" src="https://github.com/user-attachments/assets/7f57ff82-bd23-4a7e-9e59-4d5e1e67ff41" />
+</details>
 
-#### Menu Kontraktor
+<details>
+ <summary>Flowchart Menu Kontraktor</summary>
 <img width="2044" height="1983" alt="flowchart   Use Case-Menu Kontraktor drawio" src="https://github.com/user-attachments/assets/335db2ad-99f0-4a37-9de5-159507018849" />
+</details>
 
-
-## 📌Use Case
-
+## 📌Use Case Diagram
+<details>
+ <summary>Use Case SIMANPROF</summary>
 <img width="485" height="971" alt="flowchart   Use Case-Use Case drawio" src="https://github.com/user-attachments/assets/72a84b46-5590-4d13-857a-10a23b088216" />
-
+</details>
 
 ## 📌ERD
 
-#### ERD Logical
+<details>
+ <summary>ERD Logical</summary>
 <img width="7613" height="6062" alt="Logical" src="https://github.com/user-attachments/assets/f114cff6-6e03-47d8-b3c2-9015b6bd0f3f" />
+</details>
 
-#### ERD Relational
+<details>
+ <summary>ERD Relational</summary>
 <img width="7613" height="6062" alt="Relational_1" src="https://github.com/user-attachments/assets/f456a841-b1da-47d2-8f16-c7eaf345c828" />
-
+</details>
 
 ## 📌Entitas
 
@@ -225,7 +234,8 @@ Setelah login berhasil, admin akan diarahkan ke menu utama dengan pilihan kelola
 
 Jika admin ingin keluar dari menu admin, cukup klik tombol `Kembali ke log in` maka sistem akan menutup jendela menu yang sedang aktif dan menampilkan kembali form login awal.
 
-1️⃣Kelola Proyek
+<details>
+ <summary>1️⃣Kelola Proyek Admin</summary>
 
 Menu Kelola Proyek menampilkan dua opsi utama, yaitu melihat dan mengupdate proyek.
 
@@ -241,22 +251,28 @@ Admin dapat memperbarui data proyek yang sudah terdaftar dengan memasukkan lokas
 <img width="1165" height="746" alt="image" src="https://github.com/user-attachments/assets/1892ced5-ad7a-4d82-9883-3c68fcfcf457" />
 
 Setelah data diperbarui, sistem otomatis menyimpan perubahan tersebut ke database.
+</details>
 
-2️⃣Kelola Pengeluaran 
+<details>
+ <summary>2️⃣Kelola Pengeluaran Admin</summary>
 
 Pada menu Kelola Pengeluaran, Admin dapat melihat seluruh data pengeluaran proyek yang meliputi ID Pengeluaran, Tanggal, Keterangan, Jumlah, dan Kategori.
 Menu ini digunakan untuk memantau dan memastikan semua transaksi tercatat dengan benar.
 
 <img width="1169" height="677" alt="image" src="https://github.com/user-attachments/assets/ebf287c6-479b-48ce-9062-2a1429f47ee0" />
+</details>
 
-3️⃣Kelola Progres
+<details>
+ <summary>3️⃣Kelola Progres Admin</summary>
 
 Admin dapat memantau perkembangan proyek berdasarkan ID Proyek, Nama Proyek, Tanggal Update, Persentase Progres, dan Deskripsi.
 Fitur ini berguna untuk melihat sejauh mana proyek sudah berjalan dan apakah sesuai dengan jadwal yang ditentukan.
 
 <img width="1163" height="733" alt="image" src="https://github.com/user-attachments/assets/62db204f-05dc-4a69-9d20-8d74419c28e2" />
+</details>
 
-4️⃣Kelola Laporan
+<details>
+ <summary>4️⃣Kelola Laporan Admin</summary>
 
 Menu Kelola Laporan menampilkan tiga opsi utama, yaitu melihat, mengupdate, dan menghapus laporan.
 
@@ -275,6 +291,7 @@ Admin juga dapat menghapus laporan tertentu berdasarkan ID Laporan.
 <img width="1165" height="747" alt="image" src="https://github.com/user-attachments/assets/07e50616-36fe-45c9-a114-3dc0d16b7a50" />
 
 Setelah diisi, tekan tombol `Kirim` untuk menyimpan perubahan ke database.
+</details>
 
 ### 👷‍♂️Menu Kontraktor
 
@@ -282,9 +299,10 @@ Setelah login berhasil, kontraktor akan diarahkan ke tampilan menu utama kontrak
 
 <img width="1190" height="743" alt="image" src="https://github.com/user-attachments/assets/955d6a62-8930-433a-96c3-1685c4287570" />
 
-ika kontraktor ingin keluar dari menu kontraktor, cukup klik tombol `Kembali ke log in` maka sistem akan menutup jendela menu yang sedang aktif dan menampilkan kembali form login awal.
+Jika kontraktor ingin keluar dari menu kontraktor, cukup klik tombol `Kembali ke log in` maka sistem akan menutup jendela menu yang sedang aktif dan menampilkan kembali form login awal.
 
-1️⃣Kelola Proyek
+<details>
+ <summary>1️⃣Kelola Proyek Kontraktor</summary>
 
 Pada menu kelola proyek terdapat dua opsi utama, yaitu lihat dan tambah proyek baru.
 
@@ -299,8 +317,10 @@ Kontraktor dapat menambahkan proyek baru dengan mengisi data seperti nama proyek
 <img width="1164" height="694" alt="image" src="https://github.com/user-attachments/assets/50081b15-5b6f-418f-9665-4b4f02b94752" />
 
 Setelah semua data diisi, tekan tombol `Kirim` untuk menambahkan proyek ke database.
+</details>
 
-2️⃣Kelola Pengeluaran
+<details>
+ <summary>2️⃣Kelola Pengeluaran Kontraktor</summary>
 
 Pada menu kelola pengeluaran, terdapat tiga opsi utama, yaitu lihat, tambah, dan update pengeluaran.
 
@@ -319,8 +339,10 @@ Fitur `update pengeluaran` digunakan untuk memperbarui data pengeluaran yang sud
 <img width="1161" height="748" alt="image" src="https://github.com/user-attachments/assets/24f6fbc1-1758-4f85-b79f-d7eff28c53a2" />
 
 Sama seperti sebelumnya, setelah diisi, tekan tombol `Kirim` untuk menyimpan perubahan ke database.
+</details>
 
-3️⃣Kelola Laporan
+<details>
+ <summary>3️⃣Kelola Laporan Kontraktor</summary>
 
 Pada menu kelola laporan, terdapat dua opsi yaitu lihat dan tambah laporan.
 
@@ -335,3 +357,4 @@ Kontraktor juga dapat menambahkan laporan baru dengan mengisi tanggal laporan, j
 <img width="1168" height="691" alt="image" src="https://github.com/user-attachments/assets/01de52fe-87c5-4f97-9ecd-48014e85f11a" />
 
 Setelah semua data diisi, tekan tombol `Kirim` untuk menambahkan laporan ke database.
+</details>
