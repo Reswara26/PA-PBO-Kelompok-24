@@ -206,3 +206,87 @@ Package ini menampilkan menu utama, menangani login, dan menghubungkan semua fit
   JDK menyediakan berbagai library standar seperti java.sql untuk koneksi database, javax.swing untuk tampilan antarmuka (GUI), serta java.util untuk pengelolaan struktur data.
 
 ## 📌Cara menggunakan program
+
+### :👤Tampilan Login
+
+<img width="1204" height="772" alt="Screenshot 2025-11-03 141102" src="https://github.com/user-attachments/assets/88a8630d-5510-4398-a20a-648803afa662" />
+
+Pada tampilan awal, pengguna (admin atau kontraktor) melakukan login melalui form yang sama dengan memasukkan username dan password. Sistem akan otomatis mengenali peran pengguna. Jika login sebagai admin, akan diarahkan ke dashboard admin; jika sebagai kontraktor, akan masuk ke dashboard kontraktor. Seperti pada gambar dibawah.
+
+<img width="1206" height="769" alt="Screenshot 2025-11-03 141122" src="https://github.com/user-attachments/assets/d5569441-8b01-43b4-a826-d4aebc0e7dd9" />
+
+<img width="1212" height="758" alt="Screenshot 2025-11-03 141741" src="https://github.com/user-attachments/assets/bcefdd0c-b69a-49fb-a20f-cd85fe29f959" />
+
+### 🧑‍💼Menu Admin
+
+<img width="1205" height="746" alt="Screenshot 2025-11-03 141140" src="https://github.com/user-attachments/assets/2ed487b2-434b-4ea3-94c7-37ba9bd2a5ec" />
+
+Setelah login berhasil, admin akan diarahkan ke menu utama dengan pilihan kelola proyek, kelola pengeluaran, kelola progres, dan kelola laporan.
+
+<img width="1211" height="747" alt="Screenshot 2025-11-03 141157" src="https://github.com/user-attachments/assets/a1772c02-945f-4657-809e-3386031fc96b" />
+
+Pada menu Kelola Proyek, admin dapat memilih untuk melihat proyek atau mengupdate proyek sesuai kebutuhan.
+
+<img width="1192" height="737" alt="Screenshot 2025-11-03 141215" src="https://github.com/user-attachments/assets/ab04047f-8ea4-43fe-a9b6-0dbdf3e7bc4f" />
+
+Admin dapat melihat seluruh data proyek yang tersimpan di database.
+
+<img width="1186" height="765" alt="Screenshot 2025-11-03 141235" src="https://github.com/user-attachments/assets/47ee0c79-7f6b-4ec1-85bf-0be1d4d89708" />
+
+Admin dapat melakukan pembaruan (update) terhadap informasi proyek seperti lokasi, tanggal, dan anggaran.
+
+<img width="1217" height="707" alt="Screenshot 2025-11-03 141434" src="https://github.com/user-attachments/assets/1241a3e9-dcb2-42b8-90ad-4747e7437978" />
+
+<img width="1207" height="752" alt="Screenshot 2025-11-03 141450" src="https://github.com/user-attachments/assets/bd27905e-5b13-4506-9c53-abc34f0c81f0" />
+
+Pada menu Kelola Pengeluaran dan progres, admin dapat melihat daftar pengeluaran dan progres yang tersedia.
+
+<img width="1193" height="766" alt="Screenshot 2025-11-03 141507" src="https://github.com/user-attachments/assets/252e5caa-cb30-4af8-9337-e29467bce7e3" />
+
+Menu Kelola Laporan menampilkan tiga opsi utama: Lihat Laporan, Update Laporan, dan Hapus Laporan.
+Admin bisa memilih tindakan yang ingin dilakukan terhadap data laporan proyek.
+
+<img width="1187" height="766" alt="Screenshot 2025-11-03 141519" src="https://github.com/user-attachments/assets/8d4377f1-81aa-4adb-84e1-ffe2182ad5f0" />
+
+Admin dapat melihat seluruh data laporan proyek seperti ID Laporan, Tanggal Laporan, Jenis Kendala, Deskripsi, dan Status Tindak Lanjut.
+
+<img width="1188" height="768" alt="Screenshot 2025-11-03 141644" src="https://github.com/user-attachments/assets/eda737b0-5fe0-4c04-bfcf-caaecde104d0" />
+
+Admin dapat memasukkan atau memperbarui data laporan dengan memasukkan ID Laporan dan Status Tindak Lanjut.
+Setelah diisi, tekan tombol Kirim untuk menyimpan perubahan ke database.
+
+<img width="1189" height="768" alt="Screenshot 2025-11-03 141706" src="https://github.com/user-attachments/assets/45931338-9720-4762-ae31-79c1395979cf" />
+
+Pada menu hapus laporan, admin hanya perlu memasukkan ID Laporan yang ingin dihapus, lalu klik Kirim untuk menghapus data dari sistem.
+
+### 👷‍♂️Menu Kontraktor
+
+<img width="1208" height="759" alt="Screenshot 2025-11-03 141756" src="https://github.com/user-attachments/assets/37ff55a6-dd3d-4a39-8cab-54d0a13168b7" />
+
+Setelah login berhasil, kontraktor akan diarahkan ke tampilan menu utama kontraktor dengan fitur Kelola Proyek, Kelola Progres, Kelola Pengeluaran, dan Kelola Laporan.
+
+<img width="1196" height="767" alt="Screenshot 2025-11-03 141817" src="https://github.com/user-attachments/assets/cabd68d3-b694-4146-9f83-fe17cb64da6b" />
+
+<img width="1205" height="754" alt="Screenshot 2025-11-03 141830" src="https://github.com/user-attachments/assets/620f15a8-9702-4895-aee5-d1358bb22a0c" />
+
+<img width="1184" height="719" alt="Screenshot 2025-11-03 141845" src="https://github.com/user-attachments/assets/a1ff694b-f94f-478a-8ac6-7e7cf3b9c390" />
+
+Pada menu kelola proyek, kontraktor dapat menambahkan proyek baru atau melihat daftar proyek yang ada.
+
+<img width="1165" height="747" alt="image" src="https://github.com/user-attachments/assets/4cf1d53a-cfec-43c2-8c9a-9a989a546ea5" />
+
+<img width="1209" height="770" alt="Screenshot 2025-11-03 141905" src="https://github.com/user-attachments/assets/101b59d9-cd5c-401e-bf8c-9beb928c3c4c" />
+
+<img width="1187" height="760" alt="Screenshot 2025-11-03 141917" src="https://github.com/user-attachments/assets/f8d3d299-a66d-4a0a-a0c1-97cb9589dca7" />
+
+<img width="1187" height="758" alt="Screenshot 2025-11-03 141931" src="https://github.com/user-attachments/assets/8afd8e38-8110-4422-9b3c-e5fda850c7b1" />
+
+Pada menu kelola pengeluaran, kontraktor dapat melihat, menambah, ataupun memperbarui pengeluaran.
+
+<img width="1181" height="765" alt="Screenshot 2025-11-03 141948" src="https://github.com/user-attachments/assets/45d9259c-a553-4e1b-9699-e04499af3269" />
+
+<img width="1201" height="765" alt="Screenshot 2025-11-03 141958" src="https://github.com/user-attachments/assets/238fa0ec-064d-4394-a742-372a81a10051" />
+
+<img width="1206" height="758" alt="Screenshot 2025-11-03 142012" src="https://github.com/user-attachments/assets/1c7231c0-e199-4e7d-9c7d-da3f871ba2d8" />
+
+Pada menu kelola laporan, kontraktor dapat melihat ataupun menambahkan laporan.
