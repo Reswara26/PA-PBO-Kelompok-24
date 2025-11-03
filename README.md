@@ -13,7 +13,7 @@ Sistem Manajemen Proyek Infrastruktur (SIMANPROF) merupakan aplikasi berbasis Ja
 
 - 📊Laporan Proyek — Fitur ini memungkinkan pengguna untuk membuat, melihat, memperbarui, dan menghapus laporan terkait hasil atau perkembangan proyek.
 
-## 📌Flowchart
+## 🔄Flowchart
 
 <details>
  <summary>Flowchart Menu Login</summary>
@@ -30,7 +30,7 @@ Sistem Manajemen Proyek Infrastruktur (SIMANPROF) merupakan aplikasi berbasis Ja
 <img width="2044" height="1983" alt="flowchart   Use Case-Menu Kontraktor drawio" src="https://github.com/user-attachments/assets/335db2ad-99f0-4a37-9de5-159507018849" />
 </details>
 
-## 📌Use Case Diagram
+## 🧩Use Case Diagram
 <details>
  <summary>Use Case SIMANPROF</summary>
 <img width="485" height="971" alt="flowchart   Use Case-Use Case drawio" src="https://github.com/user-attachments/assets/72a84b46-5590-4d13-857a-10a23b088216" />
@@ -48,7 +48,7 @@ Sistem Manajemen Proyek Infrastruktur (SIMANPROF) merupakan aplikasi berbasis Ja
 <img width="7613" height="6062" alt="Relational_1" src="https://github.com/user-attachments/assets/f456a841-b1da-47d2-8f16-c7eaf345c828" />
 </details>
 
-## 📌Entitas
+## 🧬Entitas
 
 #### Pengguna (Admin / Kontraktor)
 Atribut Supertype (Pengguna):
@@ -135,7 +135,7 @@ Relasi:
 - Milik: Proyek memiliki satu atau banyak laporan.
 
 
-## 📌5 Pilar OOP (Object Oriented Programming) 
+## 💡5 Pilar OOP (Object Oriented Programming) 
 
 #### - Encapsulation
 Encapsulation diterapkan pada class di package model, seperti Pengguna, Proyek, Pengeluaran, Progress, dan Laporan.
@@ -156,7 +156,7 @@ Penerapan konsep polymorphism dalam program ini terdapat pada class di package s
 Penerapan interface terdapat pada package model, melalui class ICRUD. Penerapan interface ini digunakan untuk menyatukan pola operasi CRUD (Create, Read, Update, Delete) di berbagai modul, seperti proyek, laporan, dan pengeluaran.
 
 
-## 📌Project Structure
+## 🗂️Project Structure
 <img width="402" height="903" alt="Screenshot 2025-11-03 115004" src="https://github.com/user-attachments/assets/d2d55a56-a2c1-465d-8b93-3699388efc71" />
 
 <img width="343" height="577" alt="Screenshot 2025-11-03 114730" src="https://github.com/user-attachments/assets/3876b138-1899-4dc1-a423-07f7cc2240dd" />
@@ -194,7 +194,7 @@ Di dalamnya terdapat class InputValidator, yang menyediakan beberapa method stat
 Berisi class utama yang menjalankan program SIMANPROF.
 Package ini menampilkan menu utama, menangani login, dan menghubungkan semua fitur dari controller lain seperti proyek, progres, laporan, dan pengeluaran.
 
-## 📌Library yang digunakan
+## 📦Library yang digunakan
 
 <img width="335" height="172" alt="Screenshot 2025-11-03 112526" src="https://github.com/user-attachments/assets/4b81d352-e3b6-4362-b4e5-e0dd4a8a7954" />
 
@@ -214,7 +214,7 @@ Package ini menampilkan menu utama, menangani login, dan menghubungkan semua fit
   Merupakan paket pengembangan utama yang digunakan untuk menulis, mengompilasi, dan menjalankan program Java.
   JDK menyediakan berbagai library standar seperti java.sql untuk koneksi database, javax.swing untuk tampilan antarmuka (GUI), serta java.util untuk pengelolaan struktur data.
 
-## 📌Cara menggunakan program
+## 🚀Cara menggunakan program
 
 ### 👤Tampilan Login
 
