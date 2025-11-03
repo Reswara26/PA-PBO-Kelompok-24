@@ -129,22 +129,22 @@ Relasi:
 ## 📌5 Pilar OOP (Object Oriented Programming) 
 
 #### - Encapsulation
-Encapsulation diterapkan pada bagian pengelolaan class pengguna, proyek, pengeluaran, progress, dan laporan.
-Setiap atribut data disimpan dalam variabel dengan akses private, kemudian diakses melalui getter dan setter.
+Encapsulation diterapkan pada class di package model, seperti Pengguna, Proyek, Pengeluaran, Progress, dan Laporan.
+Setiap atribut disimpan dengan akses private untuk menjaga keamanan data, dan hanya dapat diakses atau dimodifikasi melalui getter dan setter.
 
 #### - Inheritance
-Penerapan konsep inheritance pada program ini terdapat pada bagian class model, khususnya antara class Pengguna, Admin, dan Kontraktor.
+Konsep inheritance diterapkan pada class di package model, khususnya antara class Pengguna, Admin, dan Kontraktor.
 Class Pengguna berperan sebagai superclass yang menyimpan atribut dasar pengguna seperti username, password, dan dll.
-Sedangkan Admin dan Kontraktor merupakan subclass yang mewarisi seluruh atribut serta method dari User, dan masing-masing menambahkan fungsi khusus sesuai perannya.
+Sedangkan Admin dan Kontraktor merupakan subclass yang mewarisi seluruh atribut serta method dari Pengguna, dan masing-masing menambahkan fungsi khusus sesuai perannya.
 
 #### - Abstraction
-
+Penerapan abstraction terdapat pada class CrudController di package service. CrudController menerapkan abstraction karena menyembunyikan detail teknis umum dari operasi CRUD dan hanya menyediakan kerangka dasar yang digunakan kembali oleh controller lain.
 
 ####  - Polymorphism
-
+Penerapan konsep polymorphism dalam program ini terdapat pada class di package service yang mengimplementasikan interface ICRUD. Setiap method seperti tambah(), edit(), dan hapus() memiliki nama yang sama dengan method di interface, namun memiliki implementasi yang berbeda sesuai dengan kebutuhan pengelolaan data proyek.
 
 #### - Interface
-Inheritance diterapkan pada bagian class model. Penerapan interface ini digunakan untuk menyatukan pola operasi CRUD (Create, Read, Update, Delete) di berbagai modul, seperti proyek, laporan, dan pengeluaran.
+Penerapan interface terdapat pada package model, melalui class ICRUD. Penerapan interface ini digunakan untuk menyatukan pola operasi CRUD (Create, Read, Update, Delete) di berbagai modul, seperti proyek, laporan, dan pengeluaran.
 
 
 ## 📌Project Structure
@@ -175,11 +175,25 @@ Package gui menangani seluruh elemen visual yang berhubungan langsung dengan pen
 Package db_connector berisi class yang berfungsi untuk mengatur koneksi antara aplikasi dan database MySQL yang digunakan oleh sistem.
 Package ini hanya berisi satu class utama yaitu db_connection, yang memiliki tanggung jawab penuh dalam membuka dan mengelola koneksi ke database.
 
+5. Package Util
+   Package util berisi class bantu yang digunakan untuk memvalidasi input pengguna sebelum data disimpan ke sistem.
+   Di dalamnya terdapat class InputValidator, yang menyediakan beberapa method statis seperti requireNonEmpty(), requireDouble(), dan requireDate().
+
+6. Package Main
+   Berisi class utama yang menjalankan program SIMANPROF.
+   Package ini menampilkan menu utama, menangani login, dan menghubungkan semua fitur dari controller lain seperti proyek, progres, laporan, dan pengeluaran.
+
 ## 📌Library yang digunakan
+
+<img width="335" height="172" alt="Screenshot 2025-11-03 112526" src="https://github.com/user-attachments/assets/4b81d352-e3b6-4362-b4e5-e0dd4a8a7954" />
+
 - mysql-connector-j-8.0.33.jar
   Library ini berfungsi sebagai driver JDBC yang memungkinkan aplikasi Java terhubung dengan database MySQL.
   Dalam program ini, library tersebut digunakan untuk menjalankan berbagai operasi pengelolaan data seperti menambah, menghapus, memperbarui, dan menampilkan data proyek.
   Dengan bantuan library ini, class db_connection dapat membuka koneksi ke database simanprof dan mengeksekusi perintah SQL melalui Java dengan lancar.
+
+- AbsoluteLayout-RELEASE270.jar
+  Library ini digunakan untuk mengatur posisi komponen di tampilan aplikasi (GUI) secara bebas menggunakan koordinat (x, y).
 
 - protobuf-java-3.21.9.jar
   Library ini merupakan dependensi tambahan yang mendukung performa MySQL Connector dalam melakukan komunikasi data.
