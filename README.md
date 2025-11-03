@@ -237,9 +237,10 @@ Informasi yang ditampilkan meliputi ID Proyek, Nama Proyek, Lokasi, Tanggal Mula
 <img width="1145" height="722" alt="image" src="https://github.com/user-attachments/assets/4b7bde70-4258-4a5b-834e-90c74ad5687c" />
 
 Admin dapat memperbarui data proyek yang sudah terdaftar dengan memasukkan lokasi baru, tanggal mulai, tanggal selesai, serta anggaran proyek. 
-Setelah data diperbarui, sistem otomatis menyimpan perubahan tersebut ke database.
 
 <img width="1165" height="746" alt="image" src="https://github.com/user-attachments/assets/1892ced5-ad7a-4d82-9883-3c68fcfcf457" />
+
+Setelah data diperbarui, sistem otomatis menyimpan perubahan tersebut ke database.
 
 2️⃣Kelola Pengeluaran 
 
@@ -332,3 +333,5 @@ Kontraktor dapat menampilkan daftar laporan yang berisi ID laporan, tanggal, jen
 Kontraktor juga dapat menambahkan laporan baru dengan mengisi tanggal laporan, jenis kendala yang ditemukan di lapangan, deskripsi masalah, serta status tindak lanjutnya.
 
 <img width="1168" height="691" alt="image" src="https://github.com/user-attachments/assets/01de52fe-87c5-4f97-9ecd-48014e85f11a" />
+
+Setelah semua data diisi, tekan tombol `Kirim` untuk menambahkan laporan ke database.
