@@ -255,38 +255,40 @@ Menu Kelola Laporan menampilkan tiga opsi utama. Admin bisa memilih tindakan yan
 
 ### 👷‍♂️Menu Kontraktor
 
-<img width="1208" height="759" alt="Screenshot 2025-11-03 141756" src="https://github.com/user-attachments/assets/37ff55a6-dd3d-4a39-8cab-54d0a13168b7" />
+<img width="1190" height="743" alt="image" src="https://github.com/user-attachments/assets/955d6a62-8930-433a-96c3-1685c4287570" />
 
 Setelah login berhasil, kontraktor akan diarahkan ke tampilan menu utama kontraktor dengan fitur Kelola Proyek, Kelola Progres, Kelola Pengeluaran, dan Kelola Laporan.
 
 1️⃣Kelola Proyek
 
-<img width="1196" height="767" alt="Screenshot 2025-11-03 141817" src="https://github.com/user-attachments/assets/cabd68d3-b694-4146-9f83-fe17cb64da6b" />
-
-<img width="1205" height="754" alt="Screenshot 2025-11-03 141830" src="https://github.com/user-attachments/assets/620f15a8-9702-4895-aee5-d1358bb22a0c" />
-
-<img width="1184" height="719" alt="Screenshot 2025-11-03 141845" src="https://github.com/user-attachments/assets/a1ff694b-f94f-478a-8ac6-7e7cf3b9c390" />
-
 Pada menu kelola proyek, kontraktor dapat menambahkan proyek baru atau melihat daftar proyek yang ada.
+
+<img width="1166" height="747" alt="image" src="https://github.com/user-attachments/assets/4c7cd301-c89c-44d6-924e-12ec7c05629e" />
+
+<img width="1167" height="750" alt="image" src="https://github.com/user-attachments/assets/83c2e9d8-95b9-4e12-b50e-adca1350c1c9" />
+
+<img width="1164" height="694" alt="image" src="https://github.com/user-attachments/assets/50081b15-5b6f-418f-9665-4b4f02b94752" />
+
 
 2️⃣Kelola Pengeluaran
 
-<img width="1165" height="747" alt="image" src="https://github.com/user-attachments/assets/4cf1d53a-cfec-43c2-8c9a-9a989a546ea5" />
-
-<img width="1209" height="770" alt="Screenshot 2025-11-03 141905" src="https://github.com/user-attachments/assets/101b59d9-cd5c-401e-bf8c-9beb928c3c4c" />
-
-<img width="1187" height="760" alt="Screenshot 2025-11-03 141917" src="https://github.com/user-attachments/assets/f8d3d299-a66d-4a0a-a0c1-97cb9589dca7" />
-
-<img width="1187" height="758" alt="Screenshot 2025-11-03 141931" src="https://github.com/user-attachments/assets/8afd8e38-8110-4422-9b3c-e5fda850c7b1" />
-
 Pada menu kelola pengeluaran, kontraktor dapat melihat, menambah, ataupun memperbarui pengeluaran.
+
+<img width="1163" height="746" alt="image" src="https://github.com/user-attachments/assets/fe8dfbdd-4764-4383-89db-c843ddb40d43" />
+
+<img width="1167" height="748" alt="image" src="https://github.com/user-attachments/assets/3e6e9485-48e5-43ce-8674-2958c2b08ee9" />
+
+<img width="1162" height="748" alt="image" src="https://github.com/user-attachments/assets/4ca01730-2f0e-4f47-924d-45cdbe495d46" />
+
+<img width="1161" height="748" alt="image" src="https://github.com/user-attachments/assets/24f6fbc1-1758-4f85-b79f-d7eff28c53a2" />
+
 
 3️⃣Kelola Laporan
 
-<img width="1181" height="765" alt="Screenshot 2025-11-03 141948" src="https://github.com/user-attachments/assets/45d9259c-a553-4e1b-9699-e04499af3269" />
-
-<img width="1201" height="765" alt="Screenshot 2025-11-03 141958" src="https://github.com/user-attachments/assets/238fa0ec-064d-4394-a742-372a81a10051" />
-
-<img width="1206" height="758" alt="Screenshot 2025-11-03 142012" src="https://github.com/user-attachments/assets/1c7231c0-e199-4e7d-9c7d-da3f871ba2d8" />
-
 Pada menu kelola laporan, kontraktor dapat melihat ataupun menambahkan laporan.
+
+<img width="1164" height="748" alt="image" src="https://github.com/user-attachments/assets/2cb4ed84-2f61-41ee-90c1-953a2efd7d44" />
+
+<img width="1169" height="749" alt="image" src="https://github.com/user-attachments/assets/ba37f652-cb77-4e13-a4ad-5c1a11506e5f" />
+
+<img width="1168" height="691" alt="image" src="https://github.com/user-attachments/assets/01de52fe-87c5-4f97-9ecd-48014e85f11a" />
