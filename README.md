@@ -148,9 +148,9 @@ Penerapan interface terdapat pada package model, melalui class ICRUD. Penerapan 
 
 
 ## 📌Project Structure
-<img width="409" height="896" alt="image" src="https://github.com/user-attachments/assets/11bdfaff-df3a-49ae-b968-c7b8162a6bd0" />
+<img width="402" height="903" alt="Screenshot 2025-11-03 115004" src="https://github.com/user-attachments/assets/d2d55a56-a2c1-465d-8b93-3699388efc71" />
 
-<img width="358" height="871" alt="image" src="https://github.com/user-attachments/assets/3fd5ff6a-365f-41a5-b928-0c2f8ba47a68" />
+<img width="343" height="577" alt="Screenshot 2025-11-03 114730" src="https://github.com/user-attachments/assets/3876b138-1899-4dc1-a423-07f7cc2240dd" />
 
 1. Package Model
 
