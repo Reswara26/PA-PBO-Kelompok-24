@@ -316,23 +316,39 @@ Jika kontraktor ingin keluar dari menu kontraktor, cukup klik tombol `Kembali ke
 <details>
  <summary>1️⃣Kelola Proyek Kontraktor</summary>
 
-Pada menu kelola proyek terdapat dua opsi utama, yaitu lihat dan tambah proyek baru.
+Pada menu kelola proyek terdapat dua opsi utama, yaitu lihat dan update proyek.
 
-<img width="1166" height="747" alt="image" src="https://github.com/user-attachments/assets/4c7cd301-c89c-44d6-924e-12ec7c05629e" />
+<img width="1165" height="747" alt="image" src="https://github.com/user-attachments/assets/df782ec9-639b-4105-8053-12fc7e5c4c72" />
 
 Kontraktor dapat melihat daftar proyek yang sedang dikerjakan, termasuk informasi seperti ID proyek, nama, lokasi, tanggal mulai, tanggal selesai, anggaran, dan status proyek.
 
-<img width="1167" height="750" alt="image" src="https://github.com/user-attachments/assets/83c2e9d8-95b9-4e12-b50e-adca1350c1c9" />
+<img width="1171" height="746" alt="Screenshot 2025-11-04 183353" src="https://github.com/user-attachments/assets/11faee41-4e1f-42be-a242-66ebe0b8291a" />
 
-Kontraktor dapat menambahkan proyek baru dengan mengisi data seperti nama proyek, lokasi, tanggal mulai, tanggal selesai, anggaran, dan status.
+Fitur ini digunakan untuk memperbarui data proyek yang sudah ada. Kontraktor dapat mengubah informasi seperti lokasi proyek, tanggal mulai, tanggal selesai, anggaran, dan status sesuai kondisi terkini di lapangan.
 
-<img width="1164" height="694" alt="image" src="https://github.com/user-attachments/assets/50081b15-5b6f-418f-9665-4b4f02b94752" />
+<img width="1165" height="700" alt="Screenshot 2025-11-04 183421" src="https://github.com/user-attachments/assets/19874714-b0b8-4255-b8b8-185a4daedf52" />
 
 Setelah semua data diisi, tekan tombol `Kirim` untuk menambahkan proyek ke database.
 </details>
 
 <details>
- <summary>2️⃣Kelola Pengeluaran Kontraktor</summary>
+ <summary>2️⃣Kelola Progres Kontraktor</summary>
+
+Pada menu kelola Progres, terdapat tiga opsi utama, yaitu lihat, tambah, dan update progres.
+
+<img width="1167" height="750" alt="image" src="https://github.com/user-attachments/assets/9dc2cb15-cf9d-4787-a4d6-83791d351250" />
+
+Kontraktor dapat menambahkan progres baru untuk mencatat perkembangan proyek.
+
+<img width="1168" height="744" alt="Screenshot 2025-11-04 183455" src="https://github.com/user-attachments/assets/748263f7-e58c-4d79-8588-a54c95407351" />
+
+Kontraktor juga dapat memperbarui data progres yang sudah ada, seperti perubahan persentase kemajuan atau deskripsi tambahan.
+
+<img width="1169" height="751" alt="Screenshot 2025-11-04 183513" src="https://github.com/user-attachments/assets/2c102641-909a-47c6-b1f5-1d4e6a6885ce" />
+</details>
+
+<details>
+ <summary>3️⃣Kelola Pengeluaran Kontraktor</summary>
 
 Pada menu kelola pengeluaran, terdapat tiga opsi utama, yaitu lihat, tambah, dan update pengeluaran.
 
@@ -340,33 +356,33 @@ Pada menu kelola pengeluaran, terdapat tiga opsi utama, yaitu lihat, tambah, dan
 
 Kontraktor dapat menampilkan daftar seluruh pengeluaran proyek yang berisi ID, tanggal, keterangan, jumlah, dan kategori pengeluaran.
 
-<img width="1167" height="748" alt="image" src="https://github.com/user-attachments/assets/3e6e9485-48e5-43ce-8674-2958c2b08ee9" />
+<img width="1172" height="746" alt="Screenshot 2025-11-04 183545" src="https://github.com/user-attachments/assets/9030d828-4709-4119-83d5-640586c5fba7" />
 
 Kontraktor dapat menambahkan data pengeluaran baru dengan mengisi tanggal, jumlah, keterangan, dan kategori pengeluaran.
 
-<img width="1162" height="748" alt="image" src="https://github.com/user-attachments/assets/4ca01730-2f0e-4f47-924d-45cdbe495d46" />
+<img width="1166" height="747" alt="Screenshot 2025-11-04 183603" src="https://github.com/user-attachments/assets/a111fc10-fab5-4f5e-b601-2d082277573e" />
 
 Fitur `update pengeluaran` digunakan untuk memperbarui data pengeluaran yang sudah ada, misalnya mengubah tanggal, jumlah, keterangan, atau kategori pengeluaran yang baru.
 
-<img width="1161" height="748" alt="image" src="https://github.com/user-attachments/assets/24f6fbc1-1758-4f85-b79f-d7eff28c53a2" />
+<img width="1165" height="748" alt="Screenshot 2025-11-04 183621" src="https://github.com/user-attachments/assets/a14dea7a-0a71-4b42-a441-bd55780df5bf" />
 
 Sama seperti sebelumnya, setelah diisi, tekan tombol `Kirim` untuk menyimpan perubahan ke database.
 </details>
 
 <details>
- <summary>3️⃣Kelola Laporan Kontraktor</summary>
+ <summary>4️⃣Kelola Laporan Kontraktor</summary>
 
 Pada menu kelola laporan, terdapat dua opsi yaitu lihat dan tambah laporan.
 
-<img width="1164" height="748" alt="image" src="https://github.com/user-attachments/assets/2cb4ed84-2f61-41ee-90c1-953a2efd7d44" />
+<img width="1164" height="747" alt="Screenshot 2025-11-04 183644" src="https://github.com/user-attachments/assets/a3532a8f-6a8f-424a-b1f6-345ad929a555" />
 
 Kontraktor dapat menampilkan daftar laporan yang berisi ID laporan, tanggal, jenis kendala, deskripsi, dan status tindak lanjut.
 
-<img width="1169" height="749" alt="image" src="https://github.com/user-attachments/assets/ba37f652-cb77-4e13-a4ad-5c1a11506e5f" />
+<img width="1166" height="748" alt="Screenshot 2025-11-04 183706" src="https://github.com/user-attachments/assets/1abc745e-f92b-4f7e-8b31-618406d22082" />
 
-Kontraktor juga dapat menambahkan laporan baru dengan mengisi tanggal laporan, jenis kendala yang ditemukan di lapangan, deskripsi masalah, serta status tindak lanjutnya.
+Kontraktor juga dapat menambahkan laporan baru dengan mengisi tanggal laporan, jenis kendala yang ditemukan di lapangan, dan deskripsi masalah.
 
-<img width="1168" height="691" alt="image" src="https://github.com/user-attachments/assets/01de52fe-87c5-4f97-9ecd-48014e85f11a" />
+<img width="1165" height="689" alt="Screenshot 2025-11-04 183727" src="https://github.com/user-attachments/assets/f0c2af0b-ea46-475a-97d9-aaa71fe44d79" />
 
 Setelah semua data diisi, tekan tombol `Kirim` untuk menambahkan laporan ke database.
 </details>
