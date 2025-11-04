@@ -27,13 +27,13 @@ Sistem Manajemen Proyek Infrastruktur (SIMANPROF) merupakan aplikasi berbasis Ja
 
 <details>
  <summary>Flowchart Menu Kontraktor</summary>
-<img width="2044" height="1983" alt="flowchart   Use Case-Menu Kontraktor drawio" src="https://github.com/user-attachments/assets/335db2ad-99f0-4a37-9de5-159507018849" />
+<img width="2044" height="1982" alt="flowchart   Use Case-Menu Kontraktor drawio (1)" src="https://github.com/user-attachments/assets/d1e48a0d-bdb2-4694-aa77-7d647f15183b" />
 </details>
 
 ## 🧩Use Case Diagram
 <details>
  <summary>Use Case SIMANPROF</summary>
-<img width="485" height="971" alt="flowchart   Use Case-Use Case drawio" src="https://github.com/user-attachments/assets/72a84b46-5590-4d13-857a-10a23b088216" />
+<img width="485" height="916" alt="flowchart   Use Case-Use Case drawio (1)" src="https://github.com/user-attachments/assets/7aada1c4-31c9-4dc6-b39f-a08448409c0c" />
 </details>
 
 ## 📌ERD
