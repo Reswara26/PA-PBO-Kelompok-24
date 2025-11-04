@@ -322,7 +322,7 @@ Pada menu kelola proyek terdapat dua opsi utama, yaitu lihat dan update proyek.
 
 Kontraktor dapat melihat daftar proyek yang sedang dikerjakan, termasuk informasi seperti ID proyek, nama, lokasi, tanggal mulai, tanggal selesai, anggaran, dan status proyek.
 
-<img width="1171" height="746" alt="Screenshot 2025-11-04 183353" src="https://github.com/user-attachments/assets/11faee41-4e1f-42be-a242-66ebe0b8291a" />
+<img width="1168" height="743" alt="Screenshot 2025-11-04 194823" src="https://github.com/user-attachments/assets/885c31cd-c8df-4764-b5e6-a106778b5789" />
 
 Fitur ini digunakan untuk memperbarui data proyek yang sudah ada. Kontraktor dapat mengubah informasi seperti lokasi proyek, tanggal mulai, tanggal selesai, anggaran, dan status sesuai kondisi terkini di lapangan.
 
@@ -337,6 +337,10 @@ Setelah semua data diisi, tekan tombol `Kirim` untuk menambahkan proyek ke datab
 Pada menu kelola Progres, terdapat tiga opsi utama, yaitu lihat, tambah, dan update progres.
 
 <img width="1167" height="750" alt="image" src="https://github.com/user-attachments/assets/9dc2cb15-cf9d-4787-a4d6-83791d351250" />
+
+Kontraktor dapat menampilkan data progres proyek, seperti ID, nama progres, tanggal update, persentase kemajuan, dan deskripsi.
+
+<img width="1167" height="748" alt="Screenshot 2025-11-04 194643" src="https://github.com/user-attachments/assets/78a47631-5895-4187-bbb3-683349d6d655" />
 
 Kontraktor dapat menambahkan progres baru untuk mencatat perkembangan proyek.
 
@@ -357,7 +361,7 @@ Pada menu kelola pengeluaran, terdapat tiga opsi utama, yaitu lihat, tambah, dan
 
 Kontraktor dapat menampilkan daftar seluruh pengeluaran proyek yang berisi ID, tanggal, keterangan, jumlah, dan kategori pengeluaran.
 
-<img width="1172" height="746" alt="Screenshot 2025-11-04 183545" src="https://github.com/user-attachments/assets/9030d828-4709-4119-83d5-640586c5fba7" />
+<img width="1164" height="748" alt="Screenshot 2025-11-04 195005" src="https://github.com/user-attachments/assets/f955bba3-2b73-4919-a71a-55b2a0650c1b" />
 
 Kontraktor dapat menambahkan data pengeluaran baru dengan mengisi tanggal, jumlah, keterangan, dan kategori pengeluaran.
 
@@ -379,7 +383,7 @@ Pada menu kelola laporan, terdapat dua opsi yaitu lihat dan tambah laporan.
 
 Kontraktor dapat menampilkan daftar laporan yang berisi ID laporan, tanggal, jenis kendala, deskripsi, dan status tindak lanjut.
 
-<img width="1166" height="748" alt="Screenshot 2025-11-04 183706" src="https://github.com/user-attachments/assets/1abc745e-f92b-4f7e-8b31-618406d22082" />
+<img width="1171" height="749" alt="Screenshot 2025-11-04 195105" src="https://github.com/user-attachments/assets/c964ddc1-ecab-47d1-ac73-8e9127b49800" />
 
 Kontraktor juga dapat menambahkan laporan baru dengan mengisi tanggal laporan, jenis kendala yang ditemukan di lapangan, dan deskripsi masalah.
 
