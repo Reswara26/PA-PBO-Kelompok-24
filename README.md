@@ -254,11 +254,11 @@ Menu Kelola Proyek menampilkan dua opsi utama, yaitu melihat dan mengupdate proy
 Admin dapat melihat daftar seluruh proyek yang sedang atau telah dikerjakan.
 Informasi yang ditampilkan meliputi ID Proyek, Nama Proyek, Lokasi, Tanggal Mulai, dan Tanggal Selesai.
 
-<img width="1145" height="722" alt="image" src="https://github.com/user-attachments/assets/4b7bde70-4258-4a5b-834e-90c74ad5687c" />
+<img width="1144" height="723" alt="Screenshot 2025-11-04 182447" src="https://github.com/user-attachments/assets/ebfdd791-6eb3-4daa-a620-b9bfcb43b218" />
 
 Admin dapat memperbarui data proyek yang sudah terdaftar dengan memasukkan lokasi baru, tanggal mulai, tanggal selesai, serta anggaran proyek. 
 
-<img width="1165" height="746" alt="image" src="https://github.com/user-attachments/assets/1892ced5-ad7a-4d82-9883-3c68fcfcf457" />
+<img width="1162" height="750" alt="Screenshot 2025-11-04 182516" src="https://github.com/user-attachments/assets/8b83e2b9-4a3b-4129-ab73-cd8848b7e663" />
 
 Setelah data diperbarui, sistem otomatis menyimpan perubahan tersebut ke database.
 </details>
@@ -269,7 +269,8 @@ Setelah data diperbarui, sistem otomatis menyimpan perubahan tersebut ke databas
 Pada menu Kelola Pengeluaran, Admin dapat melihat seluruh data pengeluaran proyek yang meliputi ID Pengeluaran, Tanggal, Keterangan, Jumlah, dan Kategori.
 Menu ini digunakan untuk memantau dan memastikan semua transaksi tercatat dengan benar.
 
-<img width="1169" height="677" alt="image" src="https://github.com/user-attachments/assets/ebf287c6-479b-48ce-9062-2a1429f47ee0" />
+<img width="1170" height="681" alt="Screenshot 2025-11-04 182600" src="https://github.com/user-attachments/assets/d227d268-48ad-457c-91f0-225628a039bf" />
+
 </details>
 
 <details>
@@ -278,7 +279,8 @@ Menu ini digunakan untuk memantau dan memastikan semua transaksi tercatat dengan
 Admin dapat memantau perkembangan proyek berdasarkan ID Proyek, Nama Proyek, Tanggal Update, Persentase Progres, dan Deskripsi.
 Fitur ini berguna untuk melihat sejauh mana proyek sudah berjalan dan apakah sesuai dengan jadwal yang ditentukan.
 
-<img width="1163" height="733" alt="image" src="https://github.com/user-attachments/assets/62db204f-05dc-4a69-9d20-8d74419c28e2" />
+<img width="1162" height="738" alt="Screenshot 2025-11-04 182640" src="https://github.com/user-attachments/assets/bf3b947b-c27a-46c5-b725-b32e23b77db3" />
+
 </details>
 
 <details>
@@ -290,15 +292,15 @@ Menu Kelola Laporan menampilkan tiga opsi utama, yaitu melihat, mengupdate, dan 
 
 Admin dapat menampilkan seluruh laporan proyek yang berisi ID Laporan, Tanggal, Jenis Kendala, Deskripsi, dan Status Tindak Lanjut.
 
-<img width="1165" height="749" alt="image" src="https://github.com/user-attachments/assets/6ece8ce7-2089-4572-b81a-0cd2cfbcadd7" />
+<img width="1163" height="750" alt="Screenshot 2025-11-04 182718" src="https://github.com/user-attachments/assets/f5000aa0-917d-4a15-b8e0-d24c18c0de87" />
 
 Admin dapat memperbarui data laporan yang sudah terdaftar dengan memasukkan ID Laporan dan Status Tindak Lanjut.
 
-<img width="1165" height="745" alt="image" src="https://github.com/user-attachments/assets/309ef02e-059a-455d-b3e1-3c2c1774bb13" />
+<img width="1163" height="742" alt="Screenshot 2025-11-04 182742" src="https://github.com/user-attachments/assets/529bced0-ec77-4e2f-951c-c7ed9e74a411" />
 
 Admin juga dapat menghapus laporan tertentu berdasarkan ID Laporan.
 
-<img width="1165" height="747" alt="image" src="https://github.com/user-attachments/assets/07e50616-36fe-45c9-a114-3dc0d16b7a50" />
+<img width="1169" height="750" alt="Screenshot 2025-11-04 182804" src="https://github.com/user-attachments/assets/7a0531bb-5325-4b90-a2ff-ae4d28f767e7" />
 
 Setelah diisi, tekan tombol `Kirim` untuk menyimpan perubahan ke database.
 </details>
