@@ -345,6 +345,7 @@ Kontraktor dapat menambahkan progres baru untuk mencatat perkembangan proyek.
 Kontraktor juga dapat memperbarui data progres yang sudah ada, seperti perubahan persentase kemajuan atau deskripsi tambahan.
 
 <img width="1169" height="751" alt="Screenshot 2025-11-04 183513" src="https://github.com/user-attachments/assets/2c102641-909a-47c6-b1f5-1d4e6a6885ce" />
+Setelah semua diisi, Kontraktor dapat menekan tombol Kirim untuk menyimpan perubahan ke database.
 </details>
 
 <details>
