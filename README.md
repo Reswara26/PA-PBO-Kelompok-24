@@ -279,7 +279,7 @@ Menu ini digunakan untuk memantau dan memastikan semua transaksi tercatat dengan
 Admin dapat memantau perkembangan proyek berdasarkan ID Proyek, Nama Proyek, Tanggal Update, Persentase Progres, dan Deskripsi.
 Fitur ini berguna untuk melihat sejauh mana proyek sudah berjalan dan apakah sesuai dengan jadwal yang ditentukan.
 
-<img width="1162" height="738" alt="Screenshot 2025-11-04 182640" src="https://github.com/user-attachments/assets/bf3b947b-c27a-46c5-b725-b32e23b77db3" />
+<img width="1163" height="734" alt="image" src="https://github.com/user-attachments/assets/f032d45a-23e6-47d4-aaa0-a3d0e5906770" />
 
 </details>
 
