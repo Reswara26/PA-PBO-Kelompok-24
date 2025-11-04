@@ -338,7 +338,7 @@ Pada menu kelola Progres, terdapat tiga opsi utama, yaitu lihat, tambah, dan upd
 
 <img width="1167" height="750" alt="image" src="https://github.com/user-attachments/assets/9dc2cb15-cf9d-4787-a4d6-83791d351250" />
 
-Kontraktor dapat menampilkan data progres proyek, seperti ID, nama progres, tanggal update, persentase kemajuan, dan deskripsi.
+Kontraktor dapat menampilkan data progres proyek, seperti ID, tanggal, persentase, dan deskripsi.
 
 <img width="1167" height="748" alt="Screenshot 2025-11-04 194643" src="https://github.com/user-attachments/assets/78a47631-5895-4187-bbb3-683349d6d655" />
 
