@@ -140,20 +140,30 @@ Relasi:
 #### - Encapsulation
 Encapsulation diterapkan pada class di package model, seperti Pengguna, Proyek, Pengeluaran, Progress, dan Laporan.
 Setiap atribut disimpan dengan akses private untuk menjaga keamanan data, dan hanya dapat diakses atau dimodifikasi melalui getter dan setter.
+<img width="1203" height="719" alt="Screenshot 2025-11-01 173328" src="https://github.com/user-attachments/assets/379d3113-1910-452e-bcd5-739c8542d3cc" />
 
 #### - Inheritance
 Konsep inheritance diterapkan pada class di package model, khususnya antara class Pengguna, Admin, dan Kontraktor.
 Class Pengguna berperan sebagai superclass yang menyimpan atribut dasar pengguna seperti username, password, dan dll.
 Sedangkan Admin dan Kontraktor merupakan subclass yang mewarisi seluruh atribut serta method dari Pengguna, dan masing-masing menambahkan fungsi khusus sesuai perannya.
 
+<img width="435" height="203" alt="image" src="https://github.com/user-attachments/assets/9cd05059-0bbe-4fd7-bb28-0c2e1bdddb53" />
+
+<img width="551" height="93" alt="Screenshot 2025-11-01 190445" src="https://github.com/user-attachments/assets/82f9ed8e-46f6-49b9-aa45-e6bbb0b6c967" />
+
+<img width="485" height="70" alt="Screenshot 2025-11-01 190354" src="https://github.com/user-attachments/assets/9e4e5913-9c43-4348-8d13-dae17472ca65" />
+
 #### - Abstraction
 Penerapan abstraction terdapat pada class CrudController di package service. CrudController menerapkan abstraction karena menyembunyikan detail teknis umum dari operasi CRUD dan hanya menyediakan kerangka dasar yang digunakan kembali oleh controller lain.
+<img width="757" height="31" alt="image" src="https://github.com/user-attachments/assets/3c18a035-54b9-4459-999a-8074f2c32275" />
 
 ####  - Polymorphism
 Penerapan konsep polymorphism dalam program ini terdapat pada class di package service yang mengimplementasikan interface ICRUD. Setiap method seperti tambah(), edit(), dan hapus() memiliki nama yang sama dengan method di interface, namun memiliki implementasi yang berbeda sesuai dengan kebutuhan pengelolaan data proyek.
+<img width="1192" height="728" alt="image" src="https://github.com/user-attachments/assets/bf86899d-db89-4547-b2e9-6698ec616aea" />
 
 #### - Interface
 Penerapan interface terdapat pada package model, melalui class ICRUD. Penerapan interface ini digunakan untuk menyatukan pola operasi CRUD (Create, Read, Update, Delete) di berbagai modul, seperti proyek, laporan, dan pengeluaran.
+<img width="405" height="203" alt="Screenshot 2025-11-01 190511" src="https://github.com/user-attachments/assets/6a8a9723-cb10-4b1d-9d50-6113a40452f9" />
 
 
 ## 🗂️Project Structure
